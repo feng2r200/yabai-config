@@ -64,6 +64,7 @@ yabai -m rule --add label="Finder" app="^Finder$" manage=off
 yabai -m rule --add label="Hammerspoon" app="^Hammerspoon$" manage=off
 yabai -m rule --add label="Hidden Bar" app="^Hidden Bar$" manage=off
 yabai -m rule --add label="IINA" app="^IINA$" manage=off
+yabai -m rule --add label="Karabiner" app="^Karabiner" manage=off
 yabai -m rule --add label="Little Snitch" app="^Little Snitch$" manage=off
 yabai -m rule --add label="Mail" app="^Mail$" manage=off
 yabai -m rule --add label="mpv" app="^mpv$" manage=off
