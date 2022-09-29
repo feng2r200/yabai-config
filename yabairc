@@ -57,6 +57,9 @@ yabai -m rule --add label="Bob" app="^Bob$" manage=off
 yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
 yabai -m rule --add label="Calendar" app="^Calendar$" manage=off
 yabai -m rule --add label="Contexts" app="^Contexts$" manage=off
+yabai -m rule --add label="DataGrip Welcome" app="^DataGrip IDEA$" title="^Welcome" manage=off
+yabai -m rule --add label="DataGrip Keyboard Shortcut" app="^DataGrip IDEA$" title="^Keyboard Shortcut$" manage=off
+yabai -m rule --add label="DataGrip Preferences" app="^DataGrip IDEA$" title="^Preferences" manage=off
 yabai -m rule --add label="Dictionary" app="^Dictionary$" manage=off
 yabai -m rule --add label="DingTalk" app="^DingTalk$" manage=off
 yabai -m rule --add label="EuDic" app="^EuDic$" manage=off
