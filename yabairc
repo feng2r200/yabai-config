@@ -75,6 +75,7 @@ yabai -m rule --add label="Notes" app="^Notes$" manage=off
 yabai -m rule --add label="OmniDiskSweeper" app="^OmniDiskSweeper$" manage=off
 yabai -m rule --add label="QQ" app="^QQ$" manage=off
 yabai -m rule --add label="QuickTime Player" app="^QuickTime Player$" manage=off
+yabai -m rule --add label="Reminders" app="^Reminders$" manage=off
 yabai -m rule --add label="Software Update" app="^Software Update$" manage=off
 yabai -m rule --add label="Stickies" app="^Stickies$" manage=off
 yabai -m rule --add label="Surge" app="^Surge$" manage=off
