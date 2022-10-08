@@ -8,6 +8,7 @@ sudo yabai --load-sa
 yabai -m rule --add label="About This Mac" app="^System Information$" manage=off
 yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
 yabai -m rule --add label="Alfred" app="^Alfred" manage=off
+yabai -m rule --add label="Alacritty External Terminal" app="^Alacritty$" title="^DapExternal$" manage=off layer=below
 yabai -m rule --add label="App Store" app="^App Store$" manage=off
 yabai -m rule --add label="AppCleaner" app="^AppCleaner$" manage=off
 yabai -m rule --add label="Bitwarden" app="^Bitwarden$" manage=off
