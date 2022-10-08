@@ -25,6 +25,7 @@ yabai -m rule --add label="Finder" app="^Finder$" manage=off
 yabai -m rule --add label="Hammerspoon" app="^Hammerspoon$" manage=off
 yabai -m rule --add label="Hidden Bar" app="^Hidden Bar$" manage=off
 yabai -m rule --add label="IINA" app="^IINA$" manage=off
+yabai -m rule --add label="Intellij Commit" app="^IntelliJ IDEA$" title="^Push Commits to" manage=off
 yabai -m rule --add label="Intellij Welcome" app="^IntelliJ IDEA$" title="^Welcome" manage=off
 yabai -m rule --add label="Intellij Keyboard Shortcut" app="^IntelliJ IDEA$" title="^Keyboard Shortcut$" manage=off
 yabai -m rule --add label="Intellij Preferences" app="^IntelliJ IDEA$" title="^Preferences" manage=off
