@@ -31,6 +31,7 @@ yabai -m rule --add label="DataGrip Preferences" app="^DataGrip IDEA$" title="^P
 yabai -m rule --add label="Intellij Add to" app="^IntelliJ IDEA$" title="^Add File to" manage=off
 yabai -m rule --add label="Intellij Copy" app="^IntelliJ IDEA$" title="^Copy" manage=off
 yabai -m rule --add label="Intellij Commit" app="^IntelliJ IDEA$" title="^Push Commits to" manage=off
+yabai -m rule --add label="Intellij Project" app="^IntelliJ IDEA$" title="^Project" manage=off
 yabai -m rule --add label="Intellij Rollback" app="^IntelliJ IDEA$" title="^Rollback" manage=off
 yabai -m rule --add label="Intellij Update Project" app="^IntelliJ IDEA$" title="^Update Project$" manage=off
 yabai -m rule --add label="Intellij Welcome" app="^IntelliJ IDEA$" title="^Welcome" manage=off
@@ -43,11 +44,11 @@ yabai -m rule --add label="Surge" app="^Surge" manage=off
 # ===== Tiling settings ==========
 yabai -m config layout                       bsp
 
-yabai -m config top_padding                  1
-yabai -m config bottom_padding               1
-yabai -m config left_padding                 1
-yabai -m config right_padding                1
-yabai -m config window_gap                   1
+yabai -m config top_padding                  2
+yabai -m config bottom_padding               2
+yabai -m config left_padding                 2
+yabai -m config right_padding                2
+yabai -m config window_gap                   2
 
 yabai -m config mouse_follows_focus          off
 yabai -m config focus_follows_mouse          off
