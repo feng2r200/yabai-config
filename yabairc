@@ -31,6 +31,7 @@ yabai -m rule --add label="DataGrip Preferences" app="^DataGrip IDEA$" title="^P
 yabai -m rule --add label="Intellij Add to" app="^IntelliJ IDEA$" title="^Add File to" manage=off
 yabai -m rule --add label="Intellij Copy" app="^IntelliJ IDEA$" title="^Copy" manage=off
 yabai -m rule --add label="Intellij Commit" app="^IntelliJ IDEA$" title="^Push Commits to" manage=off
+yabai -m rule --add label="Intellij Rollback" app="^IntelliJ IDEA$" title="^Rollback" manage=off
 yabai -m rule --add label="Intellij Update Project" app="^IntelliJ IDEA$" title="^Update Project$" manage=off
 yabai -m rule --add label="Intellij Welcome" app="^IntelliJ IDEA$" title="^Welcome" manage=off
 yabai -m rule --add label="Intellij Keyboard Shortcut" app="^IntelliJ IDEA$" title="^Keyboard Shortcut$" manage=off
