@@ -39,6 +39,7 @@ yabai -m rule --add label="Intellij Keyboard Shortcut" app="^IntelliJ IDEA$" tit
 yabai -m rule --add label="Intellij Preferences" app="^IntelliJ IDEA$" title="^Preferences" manage=off
 yabai -m rule --add label="Karabiner" app="^Karabiner" manage=off
 yabai -m rule --add label="Little Snitch" app="^Little Snitch" manage=off
+yabai -m rule --add label="mat wizard" app="^mat$" title="^Getting Started Wizard$" manage=off
 yabai -m rule --add label="Surge" app="^Surge" manage=off
 
 # ===== Tiling settings ==========
