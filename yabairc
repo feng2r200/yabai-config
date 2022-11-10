@@ -36,6 +36,7 @@ yabai -m rule --add label="Intellij Add to" app="^IntelliJ IDEA$" title="^Add Fi
 yabai -m rule --add label="Intellij Copy" app="^IntelliJ IDEA$" title="^Copy" manage=off
 yabai -m rule --add label="Intellij Commit" app="^IntelliJ IDEA$" title="^Push Commits to" manage=off
 yabai -m rule --add label="Intellij Merge" app="^IntelliJ IDEA$" title="^Merge Revisions for" manage=off
+yabai -m rule --add label="Intellij Merge into" app="^IntelliJ IDEA$" title="^Merge into" manage=off
 yabai -m rule --add label="Intellij Project" app="^IntelliJ IDEA$" title="^Project" manage=off
 yabai -m rule --add label="Intellij Rollback" app="^IntelliJ IDEA$" title="^Rollback" manage=off
 yabai -m rule --add label="Intellij Update Project" app="^IntelliJ IDEA$" title="^Update Project$" manage=off
