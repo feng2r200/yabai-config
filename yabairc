@@ -37,6 +37,7 @@ yabai -m rule --add label="Intellij Copy" app="^IntelliJ IDEA$" title="^Copy" ma
 yabai -m rule --add label="Intellij Commit" app="^IntelliJ IDEA$" title="^Push Commits to" manage=off
 yabai -m rule --add label="Intellij Conflicts" app="^IntelliJ IDEA$" title="^Conflicts" manage=off
 yabai -m rule --add label="Intellij GitCleanup" app="^IntelliJ IDEA$" title="^Git Branches Cleanup$" manage=off
+yabai -m rule --add label="Intellij Clone" app="^IntelliJ IDEA$" title="^Get from Version Control$" manage=off
 yabai -m rule --add label="Intellij Merge" app="^IntelliJ IDEA$" title="^Merge Revisions for" manage=off
 yabai -m rule --add label="Intellij Merge into" app="^IntelliJ IDEA$" title="^Merge into" manage=off
 yabai -m rule --add label="Intellij Project" app="^IntelliJ IDEA$" title="^Project" manage=off
