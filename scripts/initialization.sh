@@ -52,18 +52,23 @@ for ((i = 0 ; i < $cnt ; i++)); do
   read -r x0 y0 w0 h0 <<< $(echo $(echo $display | jq ".frame" | jq ".x, .y, .w, .h"))
 
   # Calcuate the width and the height of the window
-  if [ $h0 -gt $w0 ]
+  # if [ $h0 -gt $w0 ]
+  if (( $(echo "$h0 > $w0" | bc -l) ));
   then
-    w=$(($w0/12*10))
+    # w=$(($w0/12*10))
+    w=$(echo "$w0/12*10" | bc)
     h=$(echo "$w/1.5" | bc)
   else
-    h=$(($h0/12*10))
+    # h=$(($h0/12*10))
+    h=$(echo "$h0/12*10" | bc)
     w=$(echo "$h*1.5/1" | bc)
   fi
 
   # Calculate the coordinates of the top left corner of the window
-  x=$(($x0+($w0-$w)/2))
-  y=$(($y0+($h0-h)/2))
+  # x=$(($x0+($w0-$w)/2))
+  # y=$(($y0+($h0-h)/2))
+  x=$(echo "$x0+($w0-$w)/2" | bc)
+  y=$(echo "$y0+($h0-$h)/2" | bc)
 
   # Store these information in a temp file
   cat>/tmp/yabai-tiling-floating-toggle/display-$index<<EOF
