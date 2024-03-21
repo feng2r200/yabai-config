@@ -38,20 +38,22 @@ yabai -m config window_gap                   2
 yabai -m rule --add label="DingTalkSubWindow" app="DingTalk" title=".*" manage=off
 yabai -m rule --add label="DingTalk" app="DingTalk" title="DingTalk" manage=on
 
-yabai -m rule --add label="System Information" app="System Information" manage=off
-yabai -m rule --add label="System Preferences" app="System Preferences" manage=off
-yabai -m rule --add label="System Settings" app="System Settings" manage=off
+yabai -m rule --add label="SystemInformation" app="System Information" manage=off
+yabai -m rule --add label="SystemPreferences" app="System Preferences" manage=off
+yabai -m rule --add label="SystemSettings" app="System Settings" manage=off
+yabai -m rule --add label="SoftwareUpdate" app="Software Update" manage=off
 
-yabai -m rule --add label="Intellij" app="IntelliJ IDEA" title=".*\[.*\].*" manage=on
-yabai -m rule --add label="Intellij Dialog" app="IntelliJ IDEA" title!=".*\[.*\].*" manage=off
+# yabai -m rule --add label="IntellijDialog2" app="^IntelliJ IDEA$" title!=".*\[.*\].*" manage=off
+yabai -m rule --add label="IntellijDialog1" app="^IntelliJ IDEA$" title="^[A-Z].*" manage=off
+yabai -m rule --add label="IntellijMain" app="^IntelliJ IDEA$" title="^\w.* \[.*\] - .*" manage=on
+yabai -m rule --add label="IntellijWelcome" app="^IntelliJ IDEA$" title="^Welcome.*" manage=on
 
 yabai -m rule --add label="Karabiner" app="^Karabiner" manage=off
-yabai -m rule --add label="mat wizard" app="^Eclipse Memory Analyzer$" title="^Getting Started Wizard$" manage=off
 yabai -m rule --add label="Surge" app="^Surge" manage=off
 
 yabai -m rule --add label="Alfred" app="Alfred Preferences" title="Alfred Preferences" manage=off
 
-otherApp='^(IINA|Finder|Calendar|Mail|Meld|WeChat|QQ|Todoist|Input Source Pro|Spotify|Activity Monitor|App Store|AppCleaner|Bitwarden|Calculator|Contexts|Dictionary|EuDic|Hammerspoon|Hidden Bar|mpv|Notes|OmniDiskSweeper|QuickTime Player|Reminders|Software Update|Stickies|The Unarchiver|Videos|Vimac|GeekTool|JetBrains Toolbox)$'
+otherApp='^(IINA|Finder|Calendar|Mail|AppCleaner|Bitwarden|Calculator|Contexts|Dictionary|Hammerspoon|Hidden Bar|mpv|Notes|QuickTime Player|Reminders|Stickies|The Unarchiver|Videos|Vimac)$'
 yabai -m rule --add app="${otherApp}" manage=off
 
 # ===== Signals ==========
